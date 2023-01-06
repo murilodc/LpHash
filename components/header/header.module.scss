@@ -1,0 +1,22 @@
+.container{
+  width: 100%;
+  padding-top: 2.5625rem ;
+  padding-right: 5.9375rem;
+  padding-left: 5.9375rem;
+  // background: radial-gradient(67.67% 67.67% at 50% 50%, #242627 0%, #111315 100%);
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menuContainer{
+  font-size: 0.625rem;
+  font-weight: 500;
+  a + a{
+    margin-left: 3.5625rem;
+  }
+  button{
+    margin-left: 4rem;
+  }
+}
