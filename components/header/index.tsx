@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Button } from "../button";
 import Styles from "./header.module.scss";
 
 const Header = () => {
@@ -12,7 +13,7 @@ const Header = () => {
           <Link href="/">Home</Link>
           <Link href="/">Sobre nós</Link>
           <Link href="/">Contato</Link>
-          <button className="">Login</button>
+          <Button>Login</Button>
         </div>
       </nav>
     </div>
